@@ -1,0 +1,16 @@
+Clean GitHub re-upload instructions
+
+The package contains all files required for the DigiBox AR website:
+- index.html
+- ar-box.glb
+- poster.png
+- README.md
+
+Recommended process:
+1. Delete the existing files from the root of the Digibox-AR repository.
+2. Upload all four files from this package to the repository root.
+3. Commit the changes.
+4. Wait 2-5 minutes for GitHub Pages to deploy.
+5. Open https://dbm-hub-maker.github.io/Digibox-AR/?v=7
+
+The corrected model has the DBM Vircon panel graphics rotated upright.

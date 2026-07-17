@@ -1,0 +1,21 @@
+Replace the existing ar-box.glb in the root of the Digibox-AR GitHub repository
+with this corrected ar-box.glb.
+
+The filename must remain exactly:
+ar-box.glb
+
+This version includes:
+- Correct L-shaped DigiBox geometry
+- Dark horizontal base
+- Two upright panels
+- Correct Y-up orientation for the web viewer
+- Separate DBM Vircon textures embedded into the two upright panels
+- Normalised texture coordinates to prevent repeating and stretching
+
+After replacing the file, edit index.html and change:
+  src="ar-box.glb?v=5"
+to:
+  src="ar-box.glb?v=6"
+
+This forces browsers and GitHub Pages to load the corrected model rather than
+the previously cached version.

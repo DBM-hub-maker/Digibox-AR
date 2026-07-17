@@ -1,0 +1,11 @@
+Upload these files to the root of the Digibox-AR repository:
+- index.html
+- ar-box.glb
+- poster.png
+- README.md
+
+Replace the existing files and commit the changes. Wait 2-5 minutes, then open:
+https://dbm-hub-maker.github.io/Digibox-AR/?v=9
+
+Version 9 keeps the exterior DBM Vircon graphics upright and readable and uses
+a plain white material on both inward-facing upright panel surfaces.

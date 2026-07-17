@@ -1,0 +1,13 @@
+Upload these two files to the ROOT of the Digibox-AR repository:
+
+1. ar-box.glb
+2. poster.png
+
+They must be beside index.html, not inside another folder.
+
+The existing index.html already requests:
+  src="ar-box.glb?v=5"
+  poster="poster.png?v=5"
+
+After uploading both files, wait 1-2 minutes and refresh the GitHub Pages URL.
+If the old page remains cached, use Ctrl+F5 or change v=5 to v=6 in index.html.
